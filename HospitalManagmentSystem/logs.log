@@ -1,0 +1,131 @@
+2024-12-09T08:12:19.719+05:30  INFO 14772 --- [main] c.h.a.HospitalManagmentSystemApplication : Starting HospitalManagmentSystemApplication using Java 21.0.4 with PID 14772 (C:\Users\sures\OneDrive\Desktop\Hexaware\Training\JAVA_REACT\Case_Study\Hospital-Management-System\HospitalManagmentSystem\target\classes started by sures in C:\Users\sures\OneDrive\Desktop\Hexaware\Training\JAVA_REACT\Case_Study\Hospital-Management-System\HospitalManagmentSystem)
+2024-12-09T08:12:19.733+05:30  INFO 14772 --- [main] c.h.a.HospitalManagmentSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T08:12:20.780+05:30  INFO 14772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T08:12:20.903+05:30  INFO 14772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 6 JPA repository interfaces.
+2024-12-09T08:12:21.936+05:30  INFO 14772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T08:12:21.954+05:30  INFO 14772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T08:12:21.954+05:30  INFO 14772 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-09T08:12:22.040+05:30  INFO 14772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T08:12:22.041+05:30  INFO 14772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2244 ms
+2024-12-09T08:12:22.190+05:30  INFO 14772 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T08:12:22.300+05:30  INFO 14772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-09T08:12:22.365+05:30  INFO 14772 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T08:12:22.800+05:30  INFO 14772 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T08:12:22.841+05:30  INFO 14772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T08:12:23.032+05:30  INFO 14772 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4119346d
+2024-12-09T08:12:23.034+05:30  INFO 14772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T08:12:23.128+05:30  WARN 14772 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T08:12:24.312+05:30  INFO 14772 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T08:12:24.786+05:30  INFO 14772 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T08:12:25.367+05:30  INFO 14772 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T08:12:26.139+05:30  WARN 14772 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T08:12:26.156+05:30  INFO 14772 --- [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-09T08:12:26.158+05:30  WARN 14772 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-12-09T08:12:26.808+05:30  INFO 14772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T08:12:26.818+05:30  INFO 14772 --- [main] c.h.a.HospitalManagmentSystemApplication : Started HospitalManagmentSystemApplication in 7.608 seconds (process running for 8.629)
+2024-12-09T08:13:22.472+05:30  INFO 14772 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-09T08:13:22.488+05:30  INFO 14772 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T08:13:22.491+05:30  INFO 14772 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T08:13:22.501+05:30  INFO 14772 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T08:13:24.721+05:30  INFO 14916 --- [main] c.h.a.HospitalManagmentSystemApplication : Starting HospitalManagmentSystemApplication using Java 21.0.4 with PID 14916 (C:\Users\sures\OneDrive\Desktop\Hexaware\Training\JAVA_REACT\Case_Study\Hospital-Management-System\HospitalManagmentSystem\target\classes started by sures in C:\Users\sures\OneDrive\Desktop\Hexaware\Training\JAVA_REACT\Case_Study\Hospital-Management-System\HospitalManagmentSystem)
+2024-12-09T08:13:24.723+05:30  INFO 14916 --- [main] c.h.a.HospitalManagmentSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T08:13:25.467+05:30  INFO 14916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T08:13:25.535+05:30  INFO 14916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 6 JPA repository interfaces.
+2024-12-09T08:13:25.997+05:30  INFO 14916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T08:13:26.009+05:30  INFO 14916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T08:13:26.009+05:30  INFO 14916 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-09T08:13:26.074+05:30  INFO 14916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T08:13:26.075+05:30  INFO 14916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2024-12-09T08:13:26.190+05:30  INFO 14916 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T08:13:26.236+05:30  INFO 14916 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-09T08:13:26.274+05:30  INFO 14916 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T08:13:26.532+05:30  INFO 14916 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T08:13:26.557+05:30  INFO 14916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T08:13:26.704+05:30  INFO 14916 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@299eca90
+2024-12-09T08:13:26.706+05:30  INFO 14916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T08:13:26.749+05:30  WARN 14916 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T08:13:27.694+05:30  INFO 14916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T08:13:28.257+05:30  INFO 14916 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T08:13:28.577+05:30  INFO 14916 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T08:13:29.197+05:30  WARN 14916 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T08:13:29.213+05:30  INFO 14916 --- [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-09T08:13:29.214+05:30  WARN 14916 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-12-09T08:13:29.744+05:30  INFO 14916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T08:13:29.754+05:30  INFO 14916 --- [main] c.h.a.HospitalManagmentSystemApplication : Started HospitalManagmentSystemApplication in 5.45 seconds (process running for 6.147)
+2024-12-09T08:16:43.678+05:30  INFO 14916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T08:16:43.679+05:30  INFO 14916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T08:16:43.690+05:30  INFO 14916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-12-09T08:16:44.009+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AuthService        : Request initiated to Login by User: admin
+2024-12-09T08:16:44.395+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AuthService        : Login Successfull!
+2024-12-09T08:16:49.287+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to get all Patients!
+2024-12-09T08:16:54.486+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to Get All Doctors!
+2024-12-09T08:16:56.239+05:30  INFO 14916 --- [http-nio-8080-exec-9] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to get all Patients!
+2024-12-09T08:16:57.683+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to Get All Doctors!
+2024-12-09T08:17:01.991+05:30  INFO 14916 --- [http-nio-8080-exec-1] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all appointments
+2024-12-09T08:17:11.978+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all records!
+2024-12-09T08:17:16.767+05:30  INFO 14916 --- [http-nio-8080-exec-3] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all prescriptions
+2024-12-09T08:17:22.653+05:30  INFO 14916 --- [http-nio-8080-exec-8] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all appointments
+2024-12-09T08:17:27.113+05:30  INFO 14916 --- [http-nio-8080-exec-9] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all appointments
+2024-12-09T08:17:28.666+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to Get All Doctors!
+2024-12-09T08:17:29.786+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to get all Patients!
+2024-12-09T08:17:31.775+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all records!
+2024-12-09T08:17:33.310+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all prescriptions
+2024-12-09T08:17:36.109+05:30  INFO 14916 --- [http-nio-8080-exec-9] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to Get All Doctors!
+2024-12-09T08:17:38.972+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to get all Patients!
+2024-12-09T08:17:41.976+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all appointments
+2024-12-09T08:17:46.448+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to view all records!
+2024-12-09T08:18:32.947+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.AuthService        : Request initiated to Login by User: lochen6@gmail.com
+2024-12-09T08:18:33.148+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.AuthService        : Login Successfull!
+2024-12-09T08:18:33.225+05:30  INFO 14916 --- [http-nio-8080-exec-9] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:18:37.189+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AdminServiceImpl   : Request initiated to get distinct specialities of all available doctors!
+2024-12-09T08:18:37.190+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.a.Service.PatientServiceImpl         : Request initiated to get all available doctors with Speciality:
+2024-12-09T08:18:37.190+05:30  INFO 14916 --- [http-nio-8080-exec-1] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:19:50.790+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:19:50.794+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.a.Service.PatientServiceImpl         : Request initiated to get Appointments of patient with id: 2
+2024-12-09T08:19:50.816+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.a.Service.PatientServiceImpl         : Appointments of patient was retrieved Successfully!
+2024-12-09T08:20:14.766+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:20:14.767+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.a.Service.PatientServiceImpl         : Request initiated to get Medical Records of patient with id: 2
+2024-12-09T08:20:14.790+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.a.Service.PatientServiceImpl         : Medical Records of patient was retrieved Successfully!
+2024-12-09T08:20:28.611+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:20:28.700+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.a.Service.PatientServiceImpl         : Request initiated to get Appointments of patient with id: 2
+2024-12-09T08:20:28.723+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.a.Service.PatientServiceImpl         : Appointments of patient was retrieved Successfully!
+2024-12-09T08:20:57.360+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:20:57.361+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.a.Service.PatientServiceImpl         : Request initiated to get Medical Records of patient with id: 2
+2024-12-09T08:20:57.371+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.a.Service.PatientServiceImpl         : Medical Records of patient was retrieved Successfully!
+2024-12-09T08:20:59.233+05:30  INFO 14916 --- [http-nio-8080-exec-3] c.h.a.Service.PatientServiceImpl         : Request initiated to view Profile of patient
+2024-12-09T08:21:23.223+05:30  INFO 14916 --- [http-nio-8080-exec-8] c.h.amazecare.Service.AuthService        : Request initiated to Login by User: muralikarthik@gmail.com
+2024-12-09T08:21:23.375+05:30  INFO 14916 --- [http-nio-8080-exec-8] c.h.amazecare.Service.AuthService        : Login Successfull!
+2024-12-09T08:21:23.418+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:21:30.980+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:21:31.005+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:21:40.259+05:30  INFO 14916 --- [http-nio-8080-exec-3] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:21:42.369+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:21:44.540+05:30  INFO 14916 --- [http-nio-8080-exec-8] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:21:44.563+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:22:26.837+05:30  INFO 14916 --- [http-nio-8080-exec-1] c.h.amazecare.Service.AuthService        : Request initiated to Login by User: harini21g@gmail.com
+2024-12-09T08:22:26.986+05:30  INFO 14916 --- [http-nio-8080-exec-1] c.h.amazecare.Service.AuthService        : Login Successfull!
+2024-12-09T08:22:27.048+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:22:29.061+05:30  INFO 14916 --- [http-nio-8080-exec-3] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:22:30.661+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:22:31.947+05:30  INFO 14916 --- [http-nio-8080-exec-8] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:22:31.972+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 2
+2024-12-09T08:23:03.406+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AuthService        : Request initiated to Login by User: muralikarthik@gmail.com
+2024-12-09T08:23:03.538+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.AuthService        : Login Successfull!
+2024-12-09T08:23:03.595+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:23:05.509+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:23:05.537+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:24:44.463+05:30  INFO 14916 --- [http-nio-8080-exec-2] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:24:44.463+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:24:50.920+05:30  INFO 14916 --- [http-nio-8080-exec-6] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:24:52.233+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:24:52.256+05:30  INFO 14916 --- [http-nio-8080-exec-4] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:25:18.467+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:25:18.467+05:30  INFO 14916 --- [http-nio-8080-exec-9] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:26:52.211+05:30  INFO 14916 --- [http-nio-8080-exec-5] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:26:54.883+05:30  INFO 14916 --- [http-nio-8080-exec-3] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:26:54.908+05:30  INFO 14916 --- [http-nio-8080-exec-8] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Appointments of doctor with id: 1
+2024-12-09T08:26:56.628+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:26:59.887+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:27:36.388+05:30  INFO 14916 --- [http-nio-8080-exec-10] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:27:37.432+05:30  INFO 14916 --- [http-nio-8080-exec-9] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
+2024-12-09T08:27:38.651+05:30  INFO 14916 --- [http-nio-8080-exec-7] c.h.amazecare.Service.DoctorServiceImpl  : Request initiated to view Doctor Profile!
